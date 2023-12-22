@@ -10,19 +10,10 @@ import Icon3 from "/Twitter-White.png";
 import Icon4 from "/YouTube-White.png";
 import Linear1 from '/Linear1.jpg';
 import Linear2 from '/Linear2.jpg';
-import Linear3 from '/Linear3.jpg';
-import Linear4 from '/Linear4.jpg';
-import Linear5 from '/Linear5.jpg';
 import Kuadrat1 from '/Kuadrat1.jpg';
 import Kuadrat2 from '/Kuadrat2.jpg';
-import Kuadrat3 from '/Kuadrat3.jpg';
-import Kuadrat4 from '/Kuadrat4.jpg';
-import Kuadrat5 from '/Kuadrat5.jpg';
 import Mutlak1 from '/Mutlak1.jpg';
 import Mutlak2 from '/Mutlak1.jpg';
-import Mutlak3 from '/Mutlak1.jpg';
-import Mutlak4 from '/Mutlak1.jpg';
-import Mutlak5 from '/Mutlak1.jpg';
 
 export const navMenu = [
   {
@@ -92,25 +83,7 @@ export const moduleCard = [
         question: "Tentukan penyelesaian dari persamaan berikut! 9x + 4 = 3x + 22",
         image: Linear2,
         answer: "Jadi, penyelesaian persamaan 9x + 4 = 3x + 22 adalah x = 3.",
-      },
-      {
-        id: "3",
-        question: "Tentukan penyelesaian dari persamaan linear satu variabel berikut! 9y - 15 = 2y - 8",
-        image: Linear3,
-        answer: "Jadi, penyelesaian persamaan linear 9y - 15 = 2y - 8 adalah y = 1.",
-      },
-      {
-        id: "4",
-        question: "Tentukan penyelesaian dari persamaan linear satu variabel berikut! 5u - 4u + 7 = 19",
-        image: Linear4,
-        answer: "Jadi, penyelesaian persamaan linear 5u - 4u + 7 = 19 adalah u = 12.",
-      },
-      {
-        id: "5",
-        question: "Tentukan penyelesaian dari setiap persamaan berikut ini! 5w + (w + 15) - 3(w + 2) = 0",
-        image: Linear5,
-        answer: "Jadi, penyelesaian persamaan linear 5w + (w + 15) - 3(w + 2) = 0 adalah w = -3.",
-      },
+      }
     ],
   },
   {
@@ -132,25 +105,7 @@ export const moduleCard = [
         question: "Tentukan akar-akar dari persamaan kuadrat berikut! 2x^2 - 7x + 3 = 0",
         image: Kuadrat2,
         answer: "Jadi, akar-akar dari persamaan kuadrat 2x^2 - 7x + 3 = 0 adalah x = 1/2, 3.",
-      },
-      {
-        id: "3",
-        question: "Tentukan akar-akar dari persamaan kuadrat berikut! 3x^2 - 4x - 4 = 0",
-        image: Kuadrat3,
-        answer: "Jadi, akar-akar dari persamaan kuadrat 3x^2 - 4x - 4 = 0 adalah x = (2 + sqrt(13))/3, (2 - sqrt(13))/3.",
-      },
-      {
-        id: "4",
-        question: "Tentukan akar-akar dari persamaan kuadrat berikut! 4x^2 + 8x + 3 = 0",
-        image: Kuadrat4,
-        answer: "Jadi, akar-akar dari persamaan kuadrat 4x^2 + 8x + 3 = 0 adalah x = -1/2, -3/2.",
-      },
-      {
-        id: "5",
-        question: "Tentukan akar-akar dari persamaan kuadrat berikut! 5x^2 - 6x + 1 = 0",
-        image: Kuadrat5,
-        answer: "Jadi, akar-akar dari persamaan kuadrat 5x^2 - 6x + 1 = 0 adalah x = 1/5, 1.",
-      },
+      }
     ],
   },
   {
@@ -172,25 +127,7 @@ export const moduleCard = [
         question: "Tentukan nilai mutlak dari 0.",
         image: Mutlak2,
         answer: "Jadi, nilai mutlak dari 0 adalah 0.",
-      },
-      {
-        id: "3",
-        question: "Tentukan nilai mutlak dari 3.",
-        image: Mutlak3,
-        answer: "Jadi, nilai mutlak dari 3 adalah 3.",
-      },
-      {
-        id: "4",
-        question: "Tentukan nilai mutlak dari -7.",
-        image: Mutlak4,
-        answer: "Jadi, nilai mutlak dari -7 adalah 7.",
-      },
-      {
-        id: "5",
-        question: "Tentukan nilai mutlak dari 2/3.",
-        image: Mutlak5,
-        answer: "Jadi, nilai mutlak dari 2/3 adalah 2/3.",
-      },
+      }
     ],
   },
 ];
