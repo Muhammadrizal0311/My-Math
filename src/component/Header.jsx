@@ -26,7 +26,7 @@ function Header() {
     <section className="w-full flex justify-center items-center py-3 fixed navBarActive">
       <div className="container px-3 flex justify-between items-center">
         <div className="nav-tittle flex items-center">
-          <img className="max-w-[40px] " src='/logo-primary.png' alt="" />
+          <img className="max-w-[40px] " src='/img/logo-primary.png' alt="" />
           <h1 className="headerTittle text-primary">MyMath</h1>
         </div>
         <NavLink style="hidden md:flex flex-row gap-2" />
@@ -35,7 +35,7 @@ function Header() {
         </Link>
         <div ref={menuRef} className='md:hidden'>
         <button className="md:hidden flex " onClick={handleNav}>
-          { !navMenu ? <img className='max-w-[40px]' src="/Menu.png" alt="" /> : <img className='max-w-[40px]' src="/Multiply.png" alt="" />
+          { !navMenu ? <img className='max-w-[40px]' src="/img/Menu.png" alt="" /> : <img className='max-w-[40px]' src="/img/Multiply.png" alt="" />
           }
         </button>
         <div className={`absolute w-[250px] h-[100vh] flex flex-col p-4 top-0 bg-white shadow-md  justify-between md:hidden ease-in-out duration-700 ${!navMenu ? '-left-full' : 'left-0'}`}>

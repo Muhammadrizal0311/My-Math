@@ -31,8 +31,12 @@ function Home() {
   function aboutSection() {
     return (
       <div className="container px-3 flex flex-col md:flex-row-reverse items-center gap-10 md:px-14">
-        <div className="w-full max-w-[400px] px-11 md:px-0 flex justify-center items-center">
-          <img className="w-full" src="/AboutImage.png" alt="" />
+        <div className="w-full max-w-[400px] px-11 md:px-0 flex justify-center items-center ">
+          <img
+            className="w-full rounded-md overflow-hidden"
+            src="https://img.freepik.com/free-photo/group-diverse-grads-throwing-caps-up-sky_53876-56031.jpg?w=826&t=st=1703213089~exp=1703213689~hmac=299ffe6495f4575b89225559776815acfabb2c4f5c77a6ef62b2311c9d981c6f"
+            alt=""
+          />
         </div>
         <div className="w-full">
           <p className="text-sm text-slate-600">
@@ -128,7 +132,11 @@ function Home() {
     return (
       <div className="container px-3 flex flex-col md:flex-row items-center gap-10 md:px-14">
         <div className="w-full max-w-[300px] px-8 md:px-0 flex justify-center items-center">
-          <img className="w-full" src="/Logo-Undira.png" alt="" />
+          <img
+            className="w-full"
+            src="https://th.bing.com/th?id=OIP.CrB1kThGT6DVtwc3vSQIogAAAA&w=214&h=224&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2"
+            alt=""
+          />
         </div>
         <div className="w-full flex flex-col gap-8">
           <p className="text-sm text-slate-600">
@@ -144,7 +152,10 @@ function Home() {
             nisi quis condimentum.
           </p>
           <div className="w-full flex justify-end">
-            <Link to="https://www.undira.ac.id" className="text-secondary font-semibold">
+            <Link
+              to="https://www.undira.ac.id"
+              className="text-secondary font-semibold"
+            >
               Kunjungi Halaman &raquo;
             </Link>
           </div>

@@ -8,7 +8,7 @@ function Footer() {
         <div className="container px-3 py-7 flex flex-col gap-14 md:gap-10 text-white md:flex-row">
           <div className="w-full flex flex-col gap-2 max-w-xs">
             <div className="nav-tittle flex items-center gap-2">
-              <img className="max-w-[40px] " src="/logo-White.png" alt="" />
+              <img className="max-w-[40px] " src="/img/logo-White.png" alt="" />
               <h1 className="headerTittle">MyMath</h1>
             </div>
             <h1 className="text-sm font-extralight">
