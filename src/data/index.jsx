@@ -1,19 +1,7 @@
-import Benefits1 from "/img/Price.png";
-import Benefits2 from "/img/Phone.png";
-import Benefits3 from "/img/Graduation.png";
 const Module1 = "https://img.freepik.com/free-photo/focus-girl-trying-solve-mathematical-equation_329181-14170.jpg?w=900&t=st=1703213189~exp=1703213789~hmac=df8f61b64dd079d6c781ec8cffabe86e63ad39004864ea3d5076cea215ce433a";
 const Module2 = "https://img.freepik.com/free-photo/side-view-man-studying-classroom_23-2150444924.jpg?size=626&ext=jpg&ga=GA1.1.956289433.1703212223&semt=sph";
 const Module3 = "https://img.freepik.com/free-photo/numerology-concept-still-life_23-2150171541.jpg?size=626&ext=jpg&ga=GA1.1.956289433.1703212223&semt=sph";
-import Icon1 from "/img/Facebook-White.png";
-import Icon2 from "/img/Instagram-White.png";
-import Icon3 from "/img/Twitter-White.png";
-import Icon4 from "/img/YouTube-White.png";
-import Linear1 from "/img/Linear1.jpg";
-import Linear2 from "/img/Linear2.jpg";
-import Kuadrat1 from "/img/Kuadrat1.jpg";
-import Kuadrat2 from "/img/Kuadrat2.jpg";
-import Mutlak1 from "/img/Mutlak1.jpg";
-import Mutlak2 from "/img/Mutlak1.jpg";
+
 
 export const navMenu = [
   {
@@ -45,19 +33,19 @@ export const navMenu = [
 export const benefitsCard = [
   {
     id: "1",
-    image: Benefits1,
+    image: '',
     tittle: "Tidak Ada Pembayaran",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit arcu a lectus aliquet, quis.",
   },
   {
     id: "2",
-    image: Benefits2,
+    image: '',
     tittle: "Device Apapun",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit arcu a lectus aliquet, quis.",
   },
   {
     id: "3",
-    image: Benefits3,
+    image: '',
     tittle: "Ilmu Perguruan Tinggi",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras hendrerit arcu a lectus aliquet, quis.",
   },
@@ -76,14 +64,14 @@ export const moduleCard = [
       {
         id: "1",
         question: "Tentukan penyelesaian dari persamaan berikut! 2x + 4 = 8",
-        image: Linear1,
+        image: '',
         answer: "Jadi, penyelesaian persamaan 2x + 4 adalah x = 2.",
       },
       {
         id: "2",
         question:
           "Tentukan penyelesaian dari persamaan berikut! 9x + 4 = 3x + 22",
-        image: Linear2,
+        image: '',
         answer: "Jadi, penyelesaian persamaan 9x + 4 = 3x + 22 adalah x = 3.",
       },
     ],
@@ -101,7 +89,7 @@ export const moduleCard = [
         id: "1",
         question:
           "Tentukan akar-akar dari persamaan kuadrat berikut! x^2 + 5x + 6 = 0",
-        image: Kuadrat1,
+        image: '',
         answer:
           "Jadi, akar-akar dari persamaan kuadrat x^2 + 5x + 6 = 0 adalah x = -2, -3.",
       },
@@ -109,7 +97,7 @@ export const moduleCard = [
         id: "2",
         question:
           "Tentukan akar-akar dari persamaan kuadrat berikut! 2x^2 - 7x + 3 = 0",
-        image: Kuadrat2,
+        image: '',
         answer:
           "Jadi, akar-akar dari persamaan kuadrat 2x^2 - 7x + 3 = 0 adalah x = 1/2, 3.",
       },
@@ -127,13 +115,13 @@ export const moduleCard = [
       {
         id: "1",
         question: "Tentukan nilai mutlak dari -5.",
-        image: Mutlak1,
+        image: '',
         answer: "Jadi, nilai mutlak dari -5 adalah 5.",
       },
       {
         id: "2",
         question: "Tentukan nilai mutlak dari 0.",
-        image: Mutlak2,
+        image: '',
         answer: "Jadi, nilai mutlak dari 0 adalah 0.",
       },
     ],
@@ -157,15 +145,15 @@ export const operatorCard = [
 
 export const logoIcon = [
   {
-    path: Icon1,
+    path: '',
   },
   {
-    path: Icon2,
+    path: '',
   },
   {
-    path: Icon3,
+    path: '',
   },
   {
-    path: Icon4,
+    path: '',
   },
 ];
