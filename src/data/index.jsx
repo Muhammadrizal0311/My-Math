@@ -1,19 +1,19 @@
-import Benefits1 from "/Price.png";
-import Benefits2 from "/Phone.png";
-import Benefits3 from "/Graduation.png";
-import Module1 from "/Module1.jpg";
-import Module2 from "/Module2.jpg";
-import Module3 from "/Module3.jpg";
-import Icon1 from "/Facebook-White.png";
-import Icon2 from "/Instagram-White.png";
-import Icon3 from "/Twitter-White.png";
-import Icon4 from "/YouTube-White.png";
-import Linear1 from '/Linear1.jpg';
-import Linear2 from '/Linear2.jpg';
-import Kuadrat1 from '/Kuadrat1.jpg';
-import Kuadrat2 from '/Kuadrat2.jpg';
-import Mutlak1 from '/Mutlak1.jpg';
-import Mutlak2 from '/Mutlak1.jpg';
+import Benefits1 from "./img/Price.png";
+import Benefits2 from "./img/Phone.png";
+import Benefits3 from "./img/Graduation.png";
+import Module1 from "./img/Module1.jpg";
+import Module2 from "./img/Module2.jpg";
+import Module3 from "./img/Module3.jpg";
+import Icon1 from "./img/Facebook-White.png";
+import Icon2 from "./img/Instagram-White.png";
+import Icon3 from "./img/Twitter-White.png";
+import Icon4 from "./img/YouTube-White.png";
+import Linear1 from './img/Linear1.jpg';
+import Linear2 from './img/Linear2.jpg';
+import Kuadrat1 from './img/Kuadrat1.jpg';
+import Kuadrat2 from './img/Kuadrat2.jpg';
+import Mutlak1 from './img/Mutlak1.jpg';
+import Mutlak2 from './img/Mutlak1.jpg';
 
 export const navMenu = [
   {
